@@ -1,3 +1,7 @@
+### Name
+
+Tony Rinaldi
+
 ### Setup
   * Fork, clone, yarn install, yarn start
 ### Do
