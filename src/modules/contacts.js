@@ -31,8 +31,8 @@ getOneContact(1).then(function (data) {
 
 window.createContact = function () {
   createContact({
-    name: "Dale Cooper",
-    occupation: "FBI Agent"
+    name: "Tony Rinaldi",
+    occupation: "Web Developer"
   }).then(function (data) {
     loadAllContacts();
   });    
