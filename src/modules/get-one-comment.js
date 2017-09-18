@@ -1,11 +1,9 @@
-function createComment(comment) {
-    return fetch("/comments", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(comment)
-    });
-  }
-  
-  export default createComment;
+function getOneComment(id) {
+  const promise = fetch(`/comments/${id}`);
+  const anotherPromise = promise.then(function (response) {
+    return response.json();
+  });
+  return anotherPromise;
+}
+
+export default getOneComment;
