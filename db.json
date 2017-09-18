@@ -36,6 +36,16 @@
       "name": "Dana Scully",
       "occupation": "FBI Agent",
       "avatar": "https://pbs.twimg.com/profile_images/718881904834056192/WnMTb__R.jpg"
+    },
+    {
+      "name": "Dale Cooper",
+      "occupation": "FBI Agent",
+      "_id": 6
+    },
+    {
+      "name": "Dale Cooper",
+      "occupation": "FBI Agent",
+      "_id": 7
     }
   ],
   "comments": [
@@ -48,6 +58,26 @@
       "_id": 2,
       "body": "I love promises!",
       "postId": 1
+    },
+    {
+      "body": "ACA is great!",
+      "_id": 3
+    },
+    {
+      "body": "ACA is great!",
+      "_id": 4
+    },
+    {
+      "body": "ACA is great!",
+      "_id": 5
+    },
+    {
+      "body": "ACA is great!",
+      "_id": 6
+    },
+    {
+      "body": "ACA is great!",
+      "_id": 7
     }
   ],
   "profile": {
